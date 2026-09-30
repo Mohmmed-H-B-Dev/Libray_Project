@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{5b19722b-a601-49c8-b64e-5c21f46f8307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen">
+      <UniqueIdentifier>{fda59ad9-79ff-4b90-aac1-86f8ef463deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{6071dcca-eadc-4337-bf19-be5511a75533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Book">
+      <UniqueIdentifier>{a1247004-6c3e-41af-911a-070aca5b8938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Authers">
+      <UniqueIdentifier>{a49b056b-5477-4822-8f00-e132cd1fa6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Manger">
+      <UniqueIdentifier>{3f2f69a6-47fc-4197-8922-c865d9ddbd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Manger\InventoryManagement">
+      <UniqueIdentifier>{8499d1f4-00ea-4eb3-8194-4293f22431fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Manger\User">
+      <UniqueIdentifier>{8f196f5c-a430-4e37-a72e-55ceab486d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Seller">
+      <UniqueIdentifier>{584f3ec8-d0c7-4471-870f-2d95f6c94be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Orders">
+      <UniqueIdentifier>{4de665b2-71e2-413e-bfa2-12f2aec4c88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Client">
+      <UniqueIdentifier>{8ad2e41e-d17b-4afe-b066-aacb9b9f4a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Linked List">
+      <UniqueIdentifier>{fc9e99d0-047c-453e-bee4-0dbaad1d8c67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Libray_Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsBook.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAuther.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsSale.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUser.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsitems.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPerson.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsString.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsScreen.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUtil.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInputValidate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsLoginScreen.h">
+      <Filter>Header Files\Screen\Manger\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewBookScreen.h">
+      <Filter>Header Files\Screen\Book</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteBookScreem.h">
+      <Filter>Header Files\Screen\Book</Filter>
+    </ClInclude>
+    <ClInclude Include="clsBookListScreen.h">
+      <Filter>Header Files\Screen\Book</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTransactoinsScreen.h">
+      <Filter>Header Files\Screen\Authers</Filter>
+    </ClInclude>
+    <ClInclude Include="clsManageUsersMenueScreen.h">
+      <Filter>Header Files\Screen\Manger\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateAuthortScreen.h">
+      <Filter>Header Files\Screen\Authers</Filter>
+    </ClInclude>
+    <ClInclude Include="clsListUsersScreen.h">
+      <Filter>Header Files\Screen\Manger\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewUserScreen.h">
+      <Filter>Header Files\Screen\Manger\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteUserScreen.h">
+      <Filter>Header Files\Screen\Manger\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindUserScreen.h">
+      <Filter>Header Files\Screen\Manger\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInventoryManagementHomeScreen.h">
+      <Filter>Header Files\Screen\Manger\InventoryManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="clsListItemsScreen.h">
+      <Filter>Header Files\Screen\Manger\InventoryManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewItemScreen.h">
+      <Filter>Header Files\Screen\Manger\InventoryManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteItemScreen.h">
+      <Filter>Header Files\Screen\Manger\InventoryManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindItemScreen.h">
+      <Filter>Header Files\Screen\Manger\InventoryManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateItemScreen.h">
+      <Filter>Header Files\Screen\Manger\InventoryManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUdateUserScreen.h">
+      <Filter>Header Files\Screen\Manger\User</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainAutherScreen.h">
+      <Filter>Header Files\Screen\Authers</Filter>
+    </ClInclude>
+    <ClInclude Include="AddItemToCartScreen.h">
+      <Filter>Header Files\Screen\Seller</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainSalesSellerScreen.h">
+      <Filter>Header Files\Screen\Seller</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainMenueScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddBookOrderScreen.h">
+      <Filter>Header Files\Screen\Orders</Filter>
+    </ClInclude>
+    <ClInclude Include="clsListPendingOrdersScreen.h">
+      <Filter>Header Files\Screen\Orders</Filter>
+    </ClInclude>
+    <ClInclude Include="clsObscureAllRequestsScreen.h">
+      <Filter>Header Files\Screen\Orders</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPendingOrdersScreen.h">
+      <Filter>Header Files\Screen\Orders</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPaymentMetodsScreen.h">
+      <Filter>Header Files\Screen\Seller</Filter>
+    </ClInclude>
+    <ClInclude Include="clsClient.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddCustomerSubscriptionNumber.h">
+      <Filter>Header Files\Screen\Seller</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewClientScreen.h">
+      <Filter>Header Files\Screen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteItemFromCartScreen.h">
+      <Filter>Header Files\Screen\Seller</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPrintInvoiceScreen.h">
+      <Filter>Header Files\Screen\Seller</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDblLinkedList.h">
+      <Filter>Header Files\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInvoice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
