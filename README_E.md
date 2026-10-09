@@ -1,6 +1,6 @@
 # 📚 Library & Inventory Management System (C++)
 
-A comprehensive Object-Oriented Console Application written in C++ for managing library operations, inventory, sales, and user administration using **CRUD** (Create, Read, Update, Delete) operations.
+​A comprehensive Object-Oriented Console Application written in C++ for managing library operations, inventory, sales, and user administration. It implements full CRUD (Create, Read, Update, Delete) operations using a flat-file (non-relational) database system based on text files (.txt) for data persistence.
 
 ---
 
